@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header-container">
       <div>
         <img
           className="header-img"
@@ -11,9 +11,13 @@ const Header = () => {
           alt=""
         />
       </div>
-      <div>
-        <h2>hey!</h2>
-        <h4>try</h4>
+      <div className="header-content">
+        <h1>Rise Fund for Climate Change</h1>
+        <h5>
+          Day by day the world is going to face a danger of Global Warming! So
+          SAARC has to take immidiate actions to save the world.
+        </h5>
+        <h2>Target Budget: 01 Million USD</h2>
       </div>
     </div>
   );
