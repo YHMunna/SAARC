@@ -1,7 +1,7 @@
 const info = [
   {
     memberID: 1,
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Amrullah_Saleh_%284%29.jpg/800px-Amrullah_Saleh_%284%29.jpg",
+    img: "https://pal4real.files.wordpress.com/2021/08/flag_of_taliban.jpg?w=1181",
     name: "Amrullah Saleh",
     designation: "Acting President",
     Country: "Afghanistan",
