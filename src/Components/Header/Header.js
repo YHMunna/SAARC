@@ -12,7 +12,7 @@ const Header = () => {
         />
       </div>
       <div className="header-content">
-        <h1>Rise Fund for Climate Change</h1>
+        <h1>Raise Fund for Climate Change</h1>
         <h5>
           Day by day the world is going to face a danger of Global Warming! So
           SAARC has to take immidiate actions to save the world.
