@@ -11,6 +11,9 @@
   background-color: rgba(213, 230, 233, 0.479);
   padding-bottom: 10px;
 }
+.donor-info:hover {
+  background-color: rgba(135, 207, 235, 0.445);
+}
 .donate-btn {
   background-color: rgb(231, 98, 98);
   width: 150px;

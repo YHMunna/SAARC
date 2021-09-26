@@ -1,9 +1,10 @@
 .donation-fund {
   margin-top: 30px;
-  background-color: rgb(228, 222, 222);
-  height: 200px;
+  background-color: rgba(194, 191, 191, 0.514);
+  height: auto;
   border-radius: 10px;
   text-align: left;
-  padding-left: 15px;
-  padding-top: 20px;
+  padding: 20px 10px 20px 15px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
 }
