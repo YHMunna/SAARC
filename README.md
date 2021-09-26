@@ -1,9 +1,9 @@
-#SAARC: Raise Fund for Climate Change
+# SAARC: Raise Fund for Climate Change
 
-#####Project Live Link: 'https://blissful-kepler-838c54.netlify.app/
+##### Project Live Link: 'https://blissful-kepler-838c54.netlify.app/
 '
 
-####Purpose of the project:
+#### Purpose of the project:
 
 1.This website is baout of SAARC
 
