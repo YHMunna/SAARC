@@ -1,0 +1,10 @@
+.country-flag {
+  width: 50px;
+  height: 30px;
+}
+.country-info {
+  margin-top: 5px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

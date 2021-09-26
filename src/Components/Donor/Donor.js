@@ -1,8 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee, faDonate } from "@fortawesome/free-solid-svg-icons";
 import "./Donor.css";
 const Donor = (props) => {
   const { img, name, designation, Country, City, proposedFund } = props.member;
-  //   console.log(props.member);
+  const donate = <FontAwesomeIcon icon={faDonate} />;
+  // console.log(props);
   return (
     <div className="donor-info">
       <img className="donor-img" src={img} alt="" />
@@ -11,7 +14,12 @@ const Donor = (props) => {
       <h6>Country: {Country}</h6>
       <h6>City: {City}</h6>
       <h6>Donate: $ {proposedFund}</h6>
-      <button className="donate-btn">Donate</button>
+      <button
+        onClick={() => props.handleAddToFund(props.member)}
+        className="donate-btn"
+      >
+        {donate} Donate
+      </button>
     </div>
   );
 };
